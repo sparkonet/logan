@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.logan" name="Logan" version="1.0" provider-name="Xiver">
+    <extension point="xbmc.addon.repository" name=" Logan REPOSITORY">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/sparkonet/logan/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sparkonet/logan/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sparkonet/logan/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Logan</summary>
+        <description>Logan</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.subskeys"
+       name="מקשים לכתוביות"
+       version="1.0.1"
+       provider-name="Subs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.pyxbmct" version="1.1.4"/>
+
+  </requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Keyboard map for subtitles</summary>
+    <language>en</language>
+    <description lang="en">Keyboard map for subtitles</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+</addons>
