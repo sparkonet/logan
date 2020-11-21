@@ -69,7 +69,7 @@
 
 <addon id="plugin.video.telemedia"
 	   name="Telemedia 2.0"
-	   version="2.4.9"
+	   version="2.5.0"
 	   provider-name="Pavel Durov">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
