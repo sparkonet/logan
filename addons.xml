@@ -42,10 +42,6 @@
     </extension>
 </addon>
 
-
-
-
-
 <addon id="repository.logan" name="Logan" version="2.0" provider-name="Xiver">
     <extension point="xbmc.addon.repository" name=" Logan REPOSITORY">
         <dir>
