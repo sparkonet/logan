@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.logan" name="Logan" version="2.5" provider-name="Xiver">
+<addon id="repository.logan" name="Logan" version="2.7" provider-name="Xiver">
     <extension point="xbmc.addon.repository" name=" Logan REPOSITORY">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/sparkonet/logan/master/addons.xml</info>
