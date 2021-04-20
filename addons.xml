@@ -25,7 +25,7 @@
   </extension>
 </addon>
 
-<addon id="repository.logan" name="Logan" version="2.7" provider-name="Xiver">
+<addon id="repository.logan" name="Logan" version="2.8" provider-name="Xiver">
     <extension point="xbmc.addon.repository" name=" Logan REPOSITORY">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/sparkonet/logan/master/addons.xml</info>
